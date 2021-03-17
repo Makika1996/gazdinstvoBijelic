@@ -76,6 +76,7 @@ body {
   background-image: url("../../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fbedb2;
   color: #363636;
   padding-left: 10%;
   font-family: "Kurale", serif;
