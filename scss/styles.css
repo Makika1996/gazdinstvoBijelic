@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 1.8vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  padding: 0 10%;
+}
+
+.navbar .logo {
+  display: block;
+}
+
+.navbar .logo img {
+  height: 50px;
+}
+
+.navbar .main-nav {
+  justify-items: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  list-style-type: none;
+  font-family: "Kurale", serif;
+  font-size: 14px;
+}
+
+.navbar .main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .main-nav ul li {
+  list-style-type: none;
+}
+
+.navbar .main-nav ul a {
+  padding: 18px 20px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.navbar .main-nav ul a:hover {
+  background-color: #b6ae2f;
+  color: white;
+}
+
+.pocetna {
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #363636;
+  padding-left: 10%;
+  font-family: "Kurale", serif;
+}
+
+.pocetna h1 {
+  padding-top: 300px;
+  font-size: 50px;
+}
+
+.pocetna p {
+  padding-top: 30px;
+  padding-bottom: 150px;
+  font-size: 14px;
+  width: 70%;
+  font-weight: 800;
+}
+
+.proizvodi {
+  background-color: #363636;
+  padding: 10% 20%;
+  height: 1000px;
+}
+
+.proizvodi .image1,
+.proizvodi .image2,
+.proizvodi .image3 {
+  position: relative;
+}
+
+.proizvodi .image2 {
+  text-align: right;
+}
+
+.proizvodi .retangle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 250px;
+  width: 250px;
+  background-color: none;
+  border: 5px solid #6a6507;
+}
+
+.proizvodi .retangle img {
+  position: absolute;
+  margin: 0;
+  bottom: -80px;
+  left: 20px;
+}
+
+.proizvodi .circle {
+  position: absolute;
+  top: 300px;
+  right: -30px;
+  height: 250px;
+  width: 250px;
+  background-color: none;
+  border: 5px solid #b6ae2f;
+}
+
+.proizvodi .circle img {
+  position: absolute;
+  margin: 0;
+  top: -80px;
+  right: 20px;
+}
+
+.proizvodi .triangle {
+  position: absolute;
+  top: 500px;
+  left: -10px;
+  height: 250px;
+  width: 250px;
+  background-color: none;
+  border: 5px solid #e4d70d;
+}
+
+.proizvodi .triangle img {
+  position: absolute;
+  margin: 0;
+  top: -80px;
+  left: 20px;
+}
+
+.proizvodi img {
+  height: 300px;
+  margin: 15px;
+}
+
+.informacije {
+  padding: 5% 10%;
+  font-family: "Kurale", serif;
+  color: #b6ae2f;
+  background-color: #fbedb2;
+}
+
+.informacije .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.informacije .info img {
+  height: 40px;
+  margin: 5px;
+}
+
+.informacije .info p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer {
+  background-color: #6a6507;
+  padding: 1% 2%;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Kurale", serif;
+  color: white;
+}
+
+footer img {
+  height: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+.pocetna {
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #363636;
+  padding-left: 10%;
+  font-family: "Kurale", serif;
+
+  h1 {
+    padding-top: 300px;
+    font-size: 50px;
+  }
+
+  p {
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-size: 14px;
+    width: 70%;
+    font-weight: 800;
+  }
+}

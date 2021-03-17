@@ -1,0 +1,18 @@
+.informacije {
+  padding: 5% 10%;
+  font-family: "Kurale", serif;
+  color: #b6ae2f;
+  background-color: #fbedb2;
+
+  .info {
+    display: flex;
+    padding-bottom: 20px;
+    img {
+      height: 40px;
+      margin: 5px;
+    }
+    p {
+      align-self: center;
+    }
+  }
+}

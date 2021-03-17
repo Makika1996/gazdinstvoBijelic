@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 1.8vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  padding: 0 10%;
+
+  .logo {
+    display: block;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .main-nav {
+    justify-items: end;
+    align-self: center;
+    list-style-type: none;
+    font-family: "Kurale", serif;
+    font-size: 14px;
+
+    ul {
+      display: flex;
+      li {
+        list-style-type: none;
+      }
+      a {
+        padding: 18px 20px;
+        text-decoration: none;
+        color: black;
+        transition-duration: 0.2s;
+
+        &:hover {
+          background-color: #b6ae2f;
+          color: white;
+        }
+      }
+    }
+  }
+}
