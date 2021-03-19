@@ -72,6 +72,12 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar .main-nav {
+    display: none;
+  }
+}
+
 .pocetna {
   background-image: url("../../images/background.png");
   background-repeat: no-repeat;
@@ -98,73 +104,40 @@ body {
 .proizvodi {
   background-color: #363636;
   padding: 10% 20%;
-  height: 1000px;
 }
 
 .proizvodi .image1,
 .proizvodi .image2,
 .proizvodi .image3 {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.proizvodi .image2 {
-  text-align: right;
-}
-
-.proizvodi .retangle {
-  position: absolute;
-  top: -10px;
-  left: -10px;
+.proizvodi .image1 img,
+.proizvodi .image2 img,
+.proizvodi .image3 img {
   height: 250px;
-  width: 250px;
-  background-color: none;
-  border: 5px solid #6a6507;
-}
-
-.proizvodi .retangle img {
-  position: absolute;
-  margin: 0;
-  bottom: -80px;
-  left: 20px;
-}
-
-.proizvodi .circle {
-  position: absolute;
-  top: 300px;
-  right: -30px;
-  height: 250px;
-  width: 250px;
-  background-color: none;
-  border: 5px solid #b6ae2f;
-}
-
-.proizvodi .circle img {
-  position: absolute;
-  margin: 0;
-  top: -80px;
-  right: 20px;
-}
-
-.proizvodi .triangle {
-  position: absolute;
-  top: 500px;
-  left: -10px;
-  height: 250px;
-  width: 250px;
-  background-color: none;
-  border: 5px solid #e4d70d;
-}
-
-.proizvodi .triangle img {
-  position: absolute;
-  margin: 0;
-  top: -80px;
-  left: 20px;
-}
-
-.proizvodi img {
-  height: 300px;
+  border: 5px solid rgba(251, 237, 178, 0.6);
+  border-radius: 5px;
   margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .proizvodi .image1,
+  .proizvodi .image2,
+  .proizvodi .image3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .proizvodi .image1 img,
+  .proizvodi .image2 img,
+  .proizvodi .image3 img {
+    height: 400px;
+  }
 }
 
 .informacije {
